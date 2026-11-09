@@ -1,0 +1,7 @@
+{
+  "title": "QA Script Runner",
+  "description": "Standalone Node tasks and Playwright browser automation powered by Express.",
+  "runnerLabel": "Script Runner",
+  "recorderLabel": "Recorder Converter",
+  "recorderDescription": "Convert Chrome DevTools Recorder JSON into this app's standalone Playwright script format."
+}

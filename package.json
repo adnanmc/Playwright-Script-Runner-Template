@@ -1,0 +1,25 @@
+{
+  "name": "playwright-core-script-runner",
+  "version": "1.2.4-template.1",
+  "private": true,
+  "description": "Configurable QA script-runner template for standalone Node tasks and Playwright scripts using installed Google Chrome.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build:css": "tailwindcss -i ./src/tailwind.css -o ./public/css/app.css --minify",
+    "postinstall": "npm run build:css",
+    "check": "node tools/check-project.js"
+  },
+  "dependencies": {
+    "express": "4.21.2",
+    "playwright-core": "1.55.0",
+    "dotenv": "16.4.5"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
